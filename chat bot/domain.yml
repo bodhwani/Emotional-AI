@@ -1,0 +1,185 @@
+intents:
+- greet
+
+- name
+- goodbye
+- thanks
+
+- sad
+- happy
+- dreamCar
+
+- jealousy
+
+- joyOpp
+- bm
+- irrelevant
+# - success
+- joy
+- relationship
+- absolute
+- variable
+- monthly
+- daily
+- halflife
+- fulllife
+
+- conflict
+
+- academics
+- everyday
+- overnight
+- otd
+- shwork
+- ownd
+
+entities:
+- name
+- joyOpp
+
+
+slots:
+  name:
+    type: text
+  joyOpp:
+    type: text
+ 
+
+
+actions:
+- utter_name
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- utter_confirm
+
+- utter_sad
+- utter_happy
+- utter_jealousy
+- utter_dreamCar
+
+- utter_joy
+- utter_bm
+- utter_irrelevant
+
+- utter_absolute
+- utter_variable
+- utter_monthly
+- utter_daily
+- utter_halflife
+- utter_fulllife
+- utter_relationship
+
+- utter_conflict
+
+- utter_academics
+- utter_everyday
+- utter_overnight
+- utter_otd
+- utter_shwork
+- utter_ownd
+
+
+templates:
+  utter_name:
+  - text: "Hey there! May I know your name?"
+
+  utter_greet:
+  - text: "Nice to meet you {name}. How can I help you?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  
+  utter_thanks:
+  - text: "My pleasure."
+
+  utter_sad:
+  - text: "I understand you're feeling sad. It's only natural to feel this way. Talking about how we feel helps us understand the situation and feel more in control. \nCan you tell what went wrong?"
+
+  utter_happy:
+  - text: "Awesome! I am very happy to hear that. \nYou are happy which means your way of being is not determined by what's around you. If you bring this one aspect to you on a daily basis, there will be no fear or suffering. Be happy always."
+
+
+  utter_jealousy:
+  - text: "Ohh. I am very sorry to hear that, but do you know, people have fixed themselves in such a way that whatever happens, they cannot be happy. \nLet me ask you a question: \nWhat is your dream car?"  
+
+  utter_joy:
+  - text: "If your joy, your agony, your happiness, your misery is determined by something or somebody around you, the chances of being joyfull in your life is almost removed. \nYou must understand this, that human experience is created from within. Therefore, you must take charge of yourself. \nIt may be difficult to manage the outside world in your way, but your body and your mind must heppen the way you want it to happen. If what you what happen, would you keep yourself 1. Blissed out 2. Miserable?"
+
+  utter_bm:
+  - text: "True, blissed out ofcourse. So if such a thing is not happening, it only means that your body and mind is not happening the way you want it. \nIf you take charge of yourself, you will always keep yourself happy and joyfull, no matter what happens in your life. \nIf that does not solves your problem, you can checkout this video <a href='https://www.youtube.com/watch?v=1rcqwRgVvvw'>Dealing with jealousy</a>"
+
+  utter_irrelevant:
+  - text: "Yeah, may be that's irrelevant. But it will help you to feel better. Trust me. So lets try again. \nWhat is your dream car?"
+
+  utter_dreamCar:
+  - text: "Oh, that's indeed an amazing car. \nLets leave poor people as of now. Do you think that people driving that car are bursting with ecstasy? \nOnly in case if it is a stolen car, you see the joy xD. \nSo one thing is very clear. Success does not bring joy to the people because it is not even about them. It is always about something or someone else. \nDo you know what is the opposite of joy?"
+  
+  utter_relationship:
+  - text: "The closer we are, the harder it is when things fall apart. The hardest part of moving on is accepting what is happening. \nIf you look deeply, you will realise that relationships break because the other person decide what they want to do, not you want them to do. \nLet me ask you this: What do you think about relationships? Are they 1. Absolute 2. Variable."
+
+
+  utter_absolute:
+  - text: "Well, may be that's why you are not feeling good. \nThis is a huge misconception and you are disillusioned right now. Lets understand this step by step. \nWhen a person gets little romantic, he believes unconsciously that this is going to be an absolute relationship. No where in the history of humanity or today or in anytime in future, will human relationships be absolute. \nIf you want to have a good relationship, how would you like to conduct? 1) daily basis. 2) monthly basis"
+
+  utter_variable:
+  - text: "Yes, you are absolutely right. \nNo where in the history of humanity or today or in anytime in future, will human relationships be absolute. If you want to have a good relationship, how would you like to conduct? 1) daily basis. 2) monthly basis"
+
+  utter_monthly:
+  - text: "See, now we getting closer to your problem. \nA relationship is a variable always and you have to conduct it on a daily basis. Otherwise, it may go somewhere else. Now let us understand why do we need a relationship. For that, let me ask you this: \nAre you 1)half a life or 2)full life?"
+
+  utter_daily:
+  - text: "Perfect. You are on the right track. Now it is difficult to understand why you still had a breakup. \nLet's understand this step by step. For that, let me ask you this: \nAre you 1)half a life or 2)full life?"
+
+
+  utter_halflife:
+  - text: "Think again. \nYou are believing this because you are not aware of your importance. Since you are believing this, you want another person to fill this life. Life doesn't work like this. If you extract some part from the other person, then the other person will also do the same. That is why you are suffering from this situation. \nIf you’ve blossomed as a complete life, you will see relationships will be of a completely different nature. It will be more of coming together and sharing, not of extracting from each other. \nYou can watch this video, which will help you to heal: <a href='https://www.youtube.com/watch?v=mxJ99xu-B7g'>Cure for Your Broken Heart</a>"
+
+  utter_fulllife:
+  - text: "Absolutely true. You are a full life. \nNow since you agreed that you are a full life, then why is it feels so incomplete that it needs another person to fill this life? So, if you’ve blossomed as a complete life, you will see relationships will be of a completely different nature. It will be more of coming together and sharing, not of extracting. \nYou can watch this video, which will help you to heal: <a href='https://www.youtube.com/watch?v=mxJ99xu-B7g'>Cure for Your Broken Heart</a>"
+
+  utter_default:
+  - text: "Sorry I did not get this. Can you please be more clear?"
+
+  utter_conflict:
+  - text: "Oh, it seems like you are confused. Why are you feeling sad. Would you like to share so that I can help"
+
+  utter_academics:
+  - text: "I am very sorry to hear that. Let's understand how your mind works in this scenario. \nDo you think things happen overnight or everyday?"
+
+  utter_everyday:
+  - text: "Absolutely true! There is no doubt that you are a wise person. \nNow there's only one thing that you need to really find and that's direction. But whose directions will you choose? 1) other's direction (like family, society, social media) 2)own direction"
+
+  utter_overnight:
+  - text: "Now we are getting closer to your problem. We think that things happen overnight but they don't. \nYour goal is not too big, you're just not yet the person you
+  need to be to execute against that and that is absolutely fine. There's only one thing that
+  you need to really find and that's direction. \nBut whose directions will you choose? 1) other's direction (like family, society, social media) 2)own direction"
+
+  utter_otd:
+  - text: "I am very sorry to say, but you're wasting your time, and it happens to all of us. \nYou were feeling sad because you didn't know this. This is the main reason students work hard but didn't get what they want. \nWhat do you think how should we work? 1) Work hard 2) Work smart"
+
+  utter_ownd:
+  - text: "You are on the right track but it seems like you are not following the right approach. You can follow these techniques, which are founded by the research, which can improve your efficiency with less efforts. \n1. Start reading from a printed material rather than a computer screen. \n2) Relax after every 30 minutes. \n3) Start listen to the music. \n4) Take decisions consciously, rather than unconsciously. I hope that solves your problem. If not, then please refer to this video:
+  <a href='https://www.youtube.com/watch?v=z4034lRVaYA'>Why you fail</a>"
+
+  utter_shwork:
+  - text: "Well actually, studies have shown that we should work hard but smartly. \nYou must take charge of your life and take decisions smartly by your own. Then you need to work hard in your choosen field. You can follow these techniques, which are founded by the research, which can improve your efficiency with less efforts. \n1. Start reading from a printed material rather than a computer screen. \n2) Relax after every 30 minutes. \n3) Start listen to the music. \n4) Take decisions consciously, rather than unconsciously. I hope that solves your problem. If not, then please refer to this video:
+  <a href='https://www.youtube.com/watch?v=z4034lRVaYA'>Why you fail</a>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
